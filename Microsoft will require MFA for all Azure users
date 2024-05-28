@@ -1,0 +1,22 @@
+This July, Azure teams will begin rolling out additional tenant-level security measures to require multi-factor authentication (MFA). Establishing this security baseline at the tenant level puts in place additional security to protect your cloud investments and company.
+
+MFA is a security method commonly required among cloud service providers and requires users to provide two or more pieces of evidence to verify their identity before accessing a service or a resource. It adds an extra layer of protection to the standard username and password authentication.
+
+The roll-out of this requirement will be gradual and methodical to minimize impact on your use cases. The blog post below provides helpful information from the Azure product team to assist you in getting ready to MFA-enable your access to Azure services. Going forward, the team will provide communications to you about your specific roll-out dates through direct emails and Azure Portal notifications. Expect these in the coming months.
+
+Read on to learn why and how MFA is important to securing customers on Azure and your workloads, environments, and users.
+
+If you do not want to wait for the roll-out, set up MFA now with the MFA wizard for Microsoft Entra.
+
+Erin How MFA works Multi-factor authentication (MFA) is a security method that requires users to provide two or more pieces of evidence to verify their identity before accessing a service or a resource. The evidence can be something the user knows (such as a password or a PIN), something the user has (such as a phone or a token), or something the user is (such as a fingerprint or a face scan).
+MFA adds an extra layer of protection to the standard username and password authentication, making it harder for attackers to compromise accounts and steal data. MFA can also help prevent unauthorized access due to phishing, credential stuffing, brute force, or password reuse attacks.
+
+Entra ID supports various MFA methods, such as Microsoft Authenticator app, SMS, voice call, and hardware tokens. Users can choose the method that suits their preferences and needs. Admins can also use Entra ID Conditional Access policies to tune when MFA is required based on signals such as the user’s location, device, role, or risk level.
+
+Why MFA is important for Azure tenant security The need for MFA is more important than ever, as cyberattacks are becoming more frequent, sophisticated, and damaging. According to a report by Microsoft, 99.9% of compromised accounts did not use MFA. The report also found that MFA can block more than 99.2% of account compromise attacks, making it one of the most effective security measures available.
+
+The rise of the hybrid workforce and accelerated digital transformation of businesses by the COVID-19 pandemic expanded risk scenarios for employees and companies. Today, more people work outside of the office and access data and applications from various devices and locations. All of this has increased the attack surface and the potential for unauthorized access, as users may use unsecured networks, devices, or passwords. MFA can help mitigate these risks by adding an extra verification step and preventing access from unknown or suspicious sources.
+
+MFA is also a key component of identity and access management, which involves ensuring that only authorized and authenticated users can access the services and resources. One of the three areas of engineering advancements within Microsoft’s Secure Future Initiative focuses on implementing new identity protections and MFA at the tenant level helps you with identity protections. MFA not only reduces the risk of account compromise and data breach, but it also helps you comply with various security standards and regulations, such as PCI DSS, HIPAA, GDPR, and NIST.
+
+Don’t wait to set up MFA To help you keep users and data safe, MFA is now available and free for you to enable at the tenant level. You can set up MFA today with the MFA wizard for Microsoft Entra.
